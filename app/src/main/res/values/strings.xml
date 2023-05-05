@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">LoginDemoApp</string>
+
+    <string name="text_sign_in">Sign In</string>
+    <string name="text_email_id">E-Mail Address</string>
+    <string name="text_password">Password</string>
+    <string name="text_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_clear">Clear</string>
+    <string name="error_empty_first">Enter First Name</string>
+    <string name="error_empty_last">Enter Last Name</string>
+    <string name="error_empty_email">Enter an E-Mail Address</string>
+    <string name="error_invalid_email">Enter a Valid E-mail Address</string>
+    <string name="error_empty_password">Enter a Password</string>
+    <string name="error_invalid_password">Enter at least 6 Digit password</string>
+    <string name="error_empty_confirm_password">Enter Confirm Password</string>
+    <string name="error_invalid_confirm_password">Enter at least 6 Digit confirm password</string>
+    <string name="error_password_match">Passwords does not matched</string>
+    <string name="error_agree_terms_condition">Agree Terms Conditions</string>
+
+    <string name="text_otp">Otp</string>
+
+    <string name="error_empty_otp">Enter an Otp</string>
+    <string name="error_invalid_otp">Enter at least 4 Digit Otp</string>
+
+    <string name="text_resend_otp">Resend Otp</string>
+
+    <string name="text_login_success">Logged In Successfully!</string>
+    <string name="text_welcome">Welcome!</string>
+    <string name="text_dashboard">Dashboard</string>
+
+    <string name="text_or">Or</string>
+    <string name="remember_me">Remember me</string>
+    <string name="text_do_not_have_an_account_login">Don\'t have an account? <b>Sign Up</b></string>
+    <string name="text_already_user_signin">Already User? <b>Sign In</b></string>
+    <string name="text_agree_terms">Agree <u>Terms &amp; Condition</u></string>
+    <string name="text_first_name">First Name</string>
+    <string name="text_lastname">Last Name</string>
+    <string name="text_sign_up">Sign Up</string>
+    <array name="place">
+        <item name="Select place">Select place</item>
+        <item name="thrissur">thrissur</item>
+        <item name="kochi">kochi</item>
+        <item name="waynad">waynad</item>
+    </array>
+
+</resources>

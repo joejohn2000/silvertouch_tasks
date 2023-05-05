@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="android.text.TextUtils" />
+
+        <variable
+            name="viewModel"
+            type="com.demo.logindemoapp.businesslogic.viewmodel.activity.ViewModelMain" />
+        <variable
+            name="generalListener"
+            type="com.demo.logindemoapp.businesslogic.interfaces.GeneralClickListener" />
+
+    </data>
+
+
+
+
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".view.activity.ActivityMain">
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Search Here"
+            android:background="@drawable/bg_border"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:iconifiedByDefault="false"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+           />
+        <!--app:queryTextListener="@{viewModel.onQueryTextListener}"
+        app:query="@{viewModel.query}"-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvList"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:paddingHorizontal="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:clickable="true"
+            app:layout_constraintTop_toBottomOf="@id/searchView" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
